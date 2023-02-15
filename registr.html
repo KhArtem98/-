@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>ДП регистрация</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+	</head>
+	<body>
+	<a href="test.html" style="text-decoration: none; font-size: 18px;"><p>Главная</p></a>
+		<div class="registr">
+			<form action="/insert_user.php" method="post">
+				<table>
+					<tr><td><label for="User_name"><b>Имя пользователя</b></label>
+						<input type="text" placeholder="Введите имя пользователя" name="User_name" required id="inp1"></td></tr>
+					<tr><td><label for="Login"><b>Логин</b></label>
+						<input type="text" placeholder="Введите логин" name="Login" required id="inp1"></td></tr>
+					<tr><td><label for="psw"><b>Пароль</b></label>
+						<input type="Password" placeholder="Введите пароль" name="Password" required id="inp1"></td></tr>
+					<tr><td><label for="psw-repeat"><b>Повторите пароль</b></label>
+						<input type="password" placeholder="Повторите пароль" name="psw-repeat" required id="inp1"></td></tr>
+					<tr><td><label for="token"><b>Файл</b>
+						<input type="Text" placeholder="Накопитель файла" name="token" id="inp3">
+					</div></td></tr>
+					<tr><td><input type="submit" id="submit" value="Регистрация"></td></tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
